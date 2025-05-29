@@ -6,19 +6,29 @@ body {
 header{
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    background-color: FFCD00;
+    background-color: #FFCD00;
 }
 
 img{
     width: 200px;
     height: 200px;
     margin: 5px;
+    opacity: .5;
 }
 .gallery{
     display: flex;
-    justify-content: center
-
+    justify-content: center;
  }
+ 
+ img:hover{
+     opacity:1;
+ }
+ 
+ img:focus{
+    width: 400px;
+    height: 400px;
+ }
+ 
 footer{
     font-size: 12px;
     text-align: center;
