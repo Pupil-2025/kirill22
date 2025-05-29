@@ -21,10 +21,7 @@ img{
  }
  
  img:hover{
-     opacity:1;
- }
- 
- img:focus{
+    opacity:1;
     width: 400px;
     height: 400px;
  }
